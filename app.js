@@ -10,10 +10,8 @@ app.use(cors());
 // app.use(express.urlencoded({ extended: true }));
 
 const configHeader = {
-  authority: 'hito-ordering.netlify.app',
   accept: 'application/json, text/plain, */*',
   'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
-  referer: 'https://hito-ordering.netlify.app/order',
   'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"',
   'sec-ch-ua-mobile': '?0',
   'sec-ch-ua-platform': '"Windows"',
